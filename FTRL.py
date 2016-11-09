@@ -33,8 +33,7 @@ def initialize(a, b, l1, l2, s_sam, ep=1, rate=0):
     FITFLG = False
     return ALPHA,BETA,L1,L2,LOGLIKHD,LOSS,Z,N,COEFF,CNAME,T_RATIO,RATE,SUBSAMPLE,NEPOCHS,FITFLG
     
-    
-def reInitVars(self):
+def reInitVars():
     LOGLIKHD = 0
     LOSS = []
     Z = None
